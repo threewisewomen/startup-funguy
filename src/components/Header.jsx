@@ -1,5 +1,5 @@
 import React from 'react'
-import { brainwave } from '../assets';
+import { funguy_logo } from '../assets';
 import { navigation } from '../constants';
 import { useLocation } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ const Header = () => {
         <div className='flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4'>
 
         <a>
-            <img src = {brainwave} width={190} height={40} alt = "FNGUY" />
+            <img src = {funguy_logo} width={190} height={40} alt = "FNGUY" />
         </a>
 
         <nav className='hidden fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent'>
